@@ -14,6 +14,7 @@
 		9A288FFD2A6C400D0074AC4D /* reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A288FFC2A6C400D0074AC4D /* reminder.swift */; };
 		9A288FFF2A6C432E0074AC4D /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A288FFE2A6C432E0074AC4D /* AddReminderView.swift */; };
 		9AD190C62A6EF9DE00BBF2ED /* RemindersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD190C52A6EF9DE00BBF2ED /* RemindersListViewModel.swift */; };
+		9AD190C82A6EFD2100BBF2ED /* RemindersListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD190C72A6EFD2100BBF2ED /* RemindersListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9A288FFC2A6C400D0074AC4D /* reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminder.swift; sourceTree = "<group>"; };
 		9A288FFE2A6C432E0074AC4D /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
 		9AD190C52A6EF9DE00BBF2ED /* RemindersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListViewModel.swift; sourceTree = "<group>"; };
+		9AD190C72A6EFD2100BBF2ED /* RemindersListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				9A288FFE2A6C432E0074AC4D /* AddReminderView.swift */,
 				9A288FF02A6C3FD20074AC4D /* RemindersListView.swift */,
+				9AD190C72A6EFD2100BBF2ED /* RemindersListRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AD190C62A6EF9DE00BBF2ED /* RemindersListViewModel.swift in Sources */,
+				9AD190C82A6EFD2100BBF2ED /* RemindersListRowView.swift in Sources */,
 				9A288FF12A6C3FD20074AC4D /* RemindersListView.swift in Sources */,
 				9A288FEF2A6C3FD20074AC4D /* TodoListWithFirebaseApp.swift in Sources */,
 				9A288FFF2A6C432E0074AC4D /* AddReminderView.swift in Sources */,
