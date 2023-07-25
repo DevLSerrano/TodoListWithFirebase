@@ -21,28 +21,55 @@ struct RemindersListView: View {
     
     
     var body: some View {
-        List($viewModel.reminders) { $reminder in
-            
-            RemindersListRowView(reminder: $reminder)
-            
-        }
-        .toolbar{
-            ToolbarItemGroup(placement: .bottomBar){
-                Button(action: presentAddReminderView){
-                    HStack{
-                        Image(systemName: "plus.cicle.fill")
-                        Text("New Reminder")
+        ZStack {
+            Color("Background")
+                .edgesIgnoringSafeArea(.all)
+            VStack {
+                HStack {
+                    ProgressIndicatorView()
+                        .tint(.blue)
+                    
+                    VStack{
+                        Text("Total de Lembretes").frame(maxWidth: .infinity,  alignment: .leading)
+                        Text("\(viewModel.reminders.count)")
+                            .multilineTextAlignment(.leading)
+                            .frame(maxWidth: .infinity,  alignment: .leading)
+                    }
+                    
+                    
+                    .padding(16)
+                    
+                }.padding(16)
+                
+                
+                List($viewModel.reminders) { $reminder in
+                    
+                    RemindersListRowView(reminder: $reminder)
+                    
+                }
+                
+                .toolbar{
+                    ToolbarItemGroup(placement: .bottomBar){
+                        Button(action: presentAddReminderView){
+                            HStack{
+                                Image(systemName: "plus.circle.fill")
+                                Text("New Reminder")
+                            }
+                        }
+                        Spacer()
+                        
+                    }
+                    
+                }
+                .sheet(isPresented: $isAddReminderDialogPresented){
+                    AddReminderView{
+                        reminder in viewModel.addReminder(reminder)
                     }
                 }
-                Spacer()
+                .tint(.blue)
             }
         }
-        .sheet(isPresented: $isAddReminderDialogPresented){
-            AddReminderView{
-                reminder in viewModel.addReminder(reminder)
-            }
-        }
-        .tint(.red)
+        
     }
     
 }
@@ -53,6 +80,8 @@ struct ContentView_Previews: PreviewProvider {
         NavigationStack {
             RemindersListView()
                 .navigationTitle("Reminders")
+            
         }
+        .environment(\.colorScheme, .dark)
     }
 }

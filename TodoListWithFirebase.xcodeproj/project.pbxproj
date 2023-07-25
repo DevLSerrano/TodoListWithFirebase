@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A2301BC2A706B5E001A750B /* ReminderToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2301BB2A706B5E001A750B /* ReminderToggleStyle.swift */; };
+		9A2301BE2A7070BF001A750B /* ProgressIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2301BD2A7070BF001A750B /* ProgressIndicatorView.swift */; };
 		9A288FEF2A6C3FD20074AC4D /* TodoListWithFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A288FEE2A6C3FD20074AC4D /* TodoListWithFirebaseApp.swift */; };
 		9A288FF12A6C3FD20074AC4D /* RemindersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A288FF02A6C3FD20074AC4D /* RemindersListView.swift */; };
 		9A288FF32A6C3FD30074AC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A288FF22A6C3FD30074AC4D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		9A2301BB2A706B5E001A750B /* ReminderToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderToggleStyle.swift; sourceTree = "<group>"; };
+		9A2301BD2A7070BF001A750B /* ProgressIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorView.swift; sourceTree = "<group>"; };
 		9A288FEB2A6C3FD20074AC4D /* TodoListWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A288FEE2A6C3FD20074AC4D /* TodoListWithFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListWithFirebaseApp.swift; sourceTree = "<group>"; };
 		9A288FF02A6C3FD20074AC4D /* RemindersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				9A288FFE2A6C432E0074AC4D /* AddReminderView.swift */,
 				9A288FF02A6C3FD20074AC4D /* RemindersListView.swift */,
 				9AD190C72A6EFD2100BBF2ED /* RemindersListRowView.swift */,
+				9A2301BD2A7070BF001A750B /* ProgressIndicatorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				9A2301BC2A706B5E001A750B /* ReminderToggleStyle.swift in Sources */,
 				9AD190C62A6EF9DE00BBF2ED /* RemindersListViewModel.swift in Sources */,
 				9AD190C82A6EFD2100BBF2ED /* RemindersListRowView.swift in Sources */,
+				9A2301BE2A7070BF001A750B /* ProgressIndicatorView.swift in Sources */,
 				9A288FF12A6C3FD20074AC4D /* RemindersListView.swift in Sources */,
 				9A288FEF2A6C3FD20074AC4D /* TodoListWithFirebaseApp.swift in Sources */,
 				9A288FFF2A6C432E0074AC4D /* AddReminderView.swift in Sources */,

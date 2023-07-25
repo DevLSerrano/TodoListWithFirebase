@@ -10,8 +10,15 @@ import SwiftUI
 @main
 struct TodoListWithFirebaseApp: App {
     var body: some Scene {
+        
         WindowGroup {
+            
+            
             RemindersListView()
+            
+            
         }
+        
     }
 }
+
