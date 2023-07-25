@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A2301BC2A706B5E001A750B /* ReminderToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2301BB2A706B5E001A750B /* ReminderToggleStyle.swift */; };
 		9A288FEF2A6C3FD20074AC4D /* TodoListWithFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A288FEE2A6C3FD20074AC4D /* TodoListWithFirebaseApp.swift */; };
 		9A288FF12A6C3FD20074AC4D /* RemindersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A288FF02A6C3FD20074AC4D /* RemindersListView.swift */; };
 		9A288FF32A6C3FD30074AC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A288FF22A6C3FD30074AC4D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A2301BB2A706B5E001A750B /* ReminderToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderToggleStyle.swift; sourceTree = "<group>"; };
 		9A288FEB2A6C3FD20074AC4D /* TodoListWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A288FEE2A6C3FD20074AC4D /* TodoListWithFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListWithFirebaseApp.swift; sourceTree = "<group>"; };
 		9A288FF02A6C3FD20074AC4D /* RemindersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A2301BA2A706B45001A750B /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				9A2301BB2A706B5E001A750B /* ReminderToggleStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		9A288FE22A6C3FD20074AC4D = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 		9AD190C12A6EF8B500BBF2ED /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
+				9A2301BA2A706B45001A750B /* Styles */,
 				9AD190C42A6EF8DA00BBF2ED /* View */,
 				9AD190C32A6EF8D100BBF2ED /* ViewModels */,
 				9AD190C22A6EF8C800BBF2ED /* Models */,
@@ -189,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2301BC2A706B5E001A750B /* ReminderToggleStyle.swift in Sources */,
 				9AD190C62A6EF9DE00BBF2ED /* RemindersListViewModel.swift in Sources */,
 				9AD190C82A6EFD2100BBF2ED /* RemindersListRowView.swift in Sources */,
 				9A288FF12A6C3FD20074AC4D /* RemindersListView.swift in Sources */,
